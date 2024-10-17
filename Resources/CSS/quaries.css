@@ -1,0 +1,379 @@
+@media only screen and (max-width: 73.75rem) {
+  /* ------ GENERAL ----- */
+  .container {
+    width: 65rem;
+    margin: 0 auto;
+  }
+
+  /* ------ HERO ----- */
+  .hero h1 {
+    font-size: 3.5em;
+  }
+
+  /* ------ ABOUT ----- */
+  .about-page {
+    justify-content: center;
+  }
+
+  .ceo {
+    width: 70%;
+  }
+
+  .about-info {
+    width: 60%;
+  }
+
+  .coache-name {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 72rem) {
+  /* ------ LABEL SECTION ----- */
+  .label-section p:nth-last-child(2) {
+    display: none;
+  }
+
+  /* ------ ABOUT ----- */
+  .ceo {
+    width: 50%;
+  }
+
+  .about-info {
+    width: 40%;
+  }
+
+  /* ------ REVIEW ----- */
+  .review-zone {
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+
+  /* ------ FOOTER SECTION ----- */
+  .footer-02 {
+    width: 65rem;
+  }
+}
+
+@media only screen and (max-width: 68.8rem) {
+  /* ------ GENERAL ----- */
+  .container {
+    width: 55rem;
+    margin: 0 auto;
+  }
+
+  /* ------ COACHES ----- */
+  .coache-img {
+    width: 13em;
+    height: 16em;
+  }
+
+  .coache-head h2 {
+    font-size: 3.5em;
+  }
+
+  .coache-head .text {
+    font-size: 0.75em;
+    width: 45%;
+  }
+
+  /* ------ CALENDER ----- */
+  .calender {
+    align-items: center;
+  }
+
+  /* ------ SUBSCRIBE ----- */
+  .subscribe .left-arr {
+    left: 1%;
+  }
+
+  .subscribe .right-arr {
+    right: 1%;
+  }
+
+  /* ------ FOOTER ----- */
+  .footer-01 {
+    gap: 5rem;
+  }
+  .foot-links {
+    width: 100%;
+  }
+
+  .footer-02 {
+    width: 55rem;
+  }
+}
+
+@media only screen and (max-width: 62.5rem) {
+  /* ------ HERO ----- */
+  .hero h1 {
+    font-size: 3em;
+  }
+
+  .hero-text .text {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 58.8rem) {
+  /* ------ GENERAL ----- */
+  .container {
+    width: 50rem;
+    margin: 0 auto;
+  }
+
+  /* ------ HERO ----- */
+  .hero h1 {
+    font-size: 3em;
+  }
+
+  /* ------ LABEL-SECTION ----- */
+  .label-section p:nth-last-child(5) {
+    display: none;
+  }
+
+  .label-section p:nth-last-child(2) {
+    display: inline-block;
+  }
+
+  .label-section p:nth-child(3) {
+    order: -1;
+  }
+
+  .label-section {
+    justify-content: center;
+    gap: 2.5em;
+  }
+
+  /* ------ ABOUT-SECTION ----- */
+  .ceo {
+    width: 35%;
+    align-self: center;
+  }
+
+  .about-info {
+    gap: 1rem;
+  }
+
+  .about-info text {
+    font-size: 0.125em;
+  }
+
+  /* ------ COACHES-SECTION ----- */
+  .coache-head h2 {
+    font-size: 3em;
+  }
+
+  .coache-list {
+    gap: 1.5rem;
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    /* flex-wrap: wrap; */
+  }
+
+  .coache-img {
+    width: 8.5rem;
+    height: 11rem;
+  }
+
+  .coache-head .text {
+    width: 60%;
+    font-size: 0.75em;
+  }
+
+  /* ------ CALENDER-SECTION ----- */
+  tr,
+  th,
+  td {
+    padding: 1rem;
+    font-size: 0.5rem;
+  }
+
+  /* ------ SUBSCRIBE-SECTION ----- */
+  .subscribe-heading {
+    font-size: 2.25em;
+  }
+
+  .sub-head {
+    font-size: 0.75em;
+  }
+
+  .sub-price {
+    font-size: 2em;
+  }
+
+  .sub-benefit li {
+    font-size: 0.75em;
+  }
+
+  .mainsublist .action {
+    padding: 8px 15px;
+  }
+
+  .subscribe .left-arr {
+    left: 8%;
+  }
+
+  .subscribe .right-arr {
+    right: 8%;
+  }
+
+  /* ------ FOOTER SECTION ----- */
+  .footer-02 {
+    width: 50rem;
+  }
+}
+
+@media only screen and (max-width: 54.5rem) {
+  /* ------ GENERAL ----- */
+  /*   .container {
+    width: 40rem;
+    margin: 0 auto;
+  } */
+
+  /* ------ LABEL ----- */
+  .label-section p:nth-last-child(1) {
+    display: none;
+  }
+
+  .label-section {
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (max-width: 52rem) {
+  /* ------ COACHES ----- */
+  .coache-head {
+    margin: 0 5rem;
+  }
+
+  .coache-head h2 {
+    font-size: 2.5em;
+  }
+
+  .coache-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .coache-img {
+    width: 12rem;
+    height: 14rem;
+  }
+
+  /* ------ REVIEW ----- */
+  .review-zone {
+    gap: 3rem;
+  }
+
+  .client-review {
+    width: 15rem;
+  }
+
+  .client-img {
+    height: 11rem;
+  }
+
+  /* ------ FOOTER ----- */
+  .footer-section .container,
+  .footer-02 {
+    width: 35rem;
+    margin: 0 auto;
+  }
+
+  .footer-01 {
+    flex-direction: column-reverse;
+    gap: 4rem;
+  }
+
+  .foot-info {
+    width: auto;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .foot-links {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer-02 {
+    line-height: 2;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 48rem) {
+  /* ------ GENERAL ------ */
+  .container {
+    width: 40rem;
+    margin: 0 auto;
+  }
+
+  /* ------ LABEL SECTION ------ */
+  .label-section {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  /* ------ ABOUT SECTION ------- */
+  .about-page {
+    display: block;
+  }
+
+  .ceo {
+    display: none;
+  }
+
+  .about-info {
+    width: 70%;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+
+  /* ----- COACHES SECTION ------ */
+  .coache-head {
+    margin: 0 auto;
+    width: 85%;
+  }
+   
+  .coache-head .text {
+    width: 100%;
+  }
+
+  .coache-list {
+    justify-content: flex-start;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+
+  .coache-info:nth-child(5),
+  .coache-info:nth-child(6) {
+    display: none;
+  }
+
+  .coache-img {
+    width: 10rem;
+    height: 12rem;
+  }
+
+  .coache-list .left-arr {
+    display: inline-block;
+
+    stroke: #a9e34b;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+  }
+
+  .coache-list .right-arr {
+    display: inline-block;
+
+    stroke: #a9e34b;
+    position: absolute;
+    top: 60%;
+    right: 6%;
+  }
+}

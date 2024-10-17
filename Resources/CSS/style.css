@@ -1,0 +1,439 @@
+/* ----------------------------- */
+/* ----- BANNER SECTION ------- */
+/* --------------------------- */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/Resources/IMG/hero-banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+
+.navigation {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* ----- HERO SECTION ------- */
+.hero {
+  width: 60%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5em;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 4.4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-text .text {
+  padding: 0 8rem;
+  text-align: center;
+}
+
+.hero-button {
+  display: flex;
+  gap: 2.5em;
+  justify-content: center;
+}
+
+.learn:hover,
+.learn:active {
+  color: #a9e34b;
+  transition: all 0.5ms;
+}
+
+/* ---------------------------- */
+/* ------ LABEL SECTION ------ */
+/* -------------------------- */
+.label-section {
+  /* max-height: 20%; */
+  background-color: #a9e34b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+  padding: 0.5em;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* ----------------------------- */
+/* ------ ABOUT SECTION ------- */
+/* --------------------------- */
+.about-page {
+  display: flex;
+  gap: 2em;
+}
+
+.ceo {
+  height: auto;
+  width: 250%;
+}
+
+.ceo-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.about-head {
+  line-height: 2;
+}
+
+.about-text {
+  line-height: 1.5;
+}
+
+.text strong {
+  text-transform: capitalize;
+}
+
+.ceo-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.ceo-info p {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.ceo-info span {
+  font-family: "Dancing Script", cursive;
+}
+
+/* ----------------------------- */
+/* ----- COACHES SECTION ------ */
+/* --------------------------- */
+.coaches-section {
+  background-color: #343a40;
+
+  position: relative;
+}
+
+.coaches {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.coache-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.coache-head h2 {
+  font-size: 4em;
+  word-spacing: 0.25;
+  letter-spacing: 0.25rem;
+}
+
+.coache-head .text {
+  width: 40%;
+}
+
+.coache-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coache-img {
+  width: 16em;
+  height: 20em;
+  border-radius: 5px;
+}
+
+.coache-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.coache-name {
+  font-size: 1.5em;
+}
+
+.position {
+  font-size: 0.75rem;
+}
+
+.coache-list .left-arr {
+  display: none;
+}
+
+.coache-list .right-arr {
+  display: none;
+}
+
+.left-arr:hover,
+.left-arr:active,
+.right-arr:hover,
+.right-arr:active {
+  fill: #a9e34b;
+  stroke: #343a40;
+  transform: scale(1.5);
+  /* transition: all 0.5ms; */
+}
+
+/* ----------------------------- */
+/* ---- PROGRAM SECTION ---- */
+/* --------------------------- */
+.program-section {
+  display: none;
+}
+
+.program-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.program-item {
+  display: flex;
+  gap: 2rem;
+}
+
+.program-img {
+  width: 13rem;
+  height: 8.5rem;
+  display: block;
+}
+
+/* ----------------------------- */
+/* ----- CALENDER SECTION ----- */
+/* --------------------------- */
+.calender {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* table, */
+tr,
+th,
+td {
+  padding: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+  border: 1px solid #fff;
+  border-right: none;
+  border-bottom: none;
+}
+
+th {
+  border-top: none;
+}
+
+tr:first-child,
+th:first-child,
+td:first-child {
+  border-left: none;
+}
+
+.tbutton {
+  align-self: center;
+}
+
+/* ----------------------------- */
+/* ---- BACKGROUND SECTION ---- */
+/* --------------------------- */
+.background-img {
+  background-image: url(/Resources/IMG/background.jpg);
+  background-position-y: 50%;
+  background-size: cover;
+  height: 60vh;
+}
+
+/* ---------------------------- */
+/* ---- SUBSCRIBE SECTION ---- */
+/* -------------------------- */
+.subscribe-heading {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  position: relative;
+  padding-bottom: 3em;
+}
+
+.sublist {
+  display: flex;
+  flex-direction: column;
+}
+
+.sublist .cta {
+  align-self: center;
+}
+
+.sub-price {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.sub-head,
+.sub-price {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.sub-price small {
+  color: #ffc9c9;
+  font-size: small;
+}
+
+.sub-benefit {
+  list-style: none;
+  margin-bottom: 2em;
+}
+
+.sub-benefit li {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  line-height: 2;
+}
+
+.subscribe .left-arr {
+  top: 40%;
+  left: 10%;
+}
+.subscribe .right-arr {
+  top: 40%;
+  right: 10%;
+}
+
+/* ---------------------------- */
+/* ------ REVIEW SECTION ----- */
+/* -------------------------- */
+.review {
+  background-color: #343a40;
+}
+
+.review-heading {
+  letter-spacing: normal;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.review-zone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-review {
+  width: 20rem;
+}
+
+.client-review figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.client-img {
+  width: 100%;
+  height: 13.333rem;
+  margin-bottom: 0.5rem;
+}
+
+.ic-filled {
+  color: #a9e34b;
+}
+
+/* ---------------------------- */
+/* ------ FOOTER SECTION ----- */
+/* -------------------------- */
+.footer-section {
+  background-color: #212529;
+}
+
+.footer-01 {
+  display: flex;
+  gap: 8rem;
+  border-bottom: 1px solid #fff;
+}
+
+.media {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.icon-link {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.icon-link:hover,
+.icon-link:active {
+  color: #a9e34b;
+}
+
+.foot-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* width: 40%; */
+}
+
+.foot-links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  /* gap: 4em; */
+}
+
+/* .foot-links:nth-last-child(1) {
+  gap: 0;
+} */
+
+.foot-nav {
+  line-height: 1.5;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.foot-nav li a:hover,
+.foot-nav li a:active {
+  color: #868e96;
+}
+
+.footer-02 {
+  width: 65rem;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-02 ul .nav-link a:hover,
+.footer-02 ul .nav-link a:active {
+  border-bottom: none;
+}
